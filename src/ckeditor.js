@@ -100,15 +100,13 @@ ClassicEditor.defaultConfig = {
 		contentToolbar: [
 			'tableColumn',
 			'tableRow',
-			'mergeTableCells'
+			'mergeTableCells',
+			'tableProperties',
+			'tableCellProperties'
 		],
 		tableProperties: {
-			// ...
 		},
-
-		// Configuration of the TableCellProperties plugin.
 		tableCellProperties: {
-			// ...
 		}
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
