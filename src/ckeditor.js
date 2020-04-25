@@ -83,17 +83,17 @@ ClassicEditor.defaultConfig = {
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
 			'undo',
 			'redo'
 		]
 	},
 	image: {
 		toolbar: [
-			'imageStyle:full',
-			'imageStyle:side',
+			'imageTextAlternative',
 			'|',
-			'imageTextAlternative'
+			'imageStyle:alignLeft',
+			'imageStyle:full',
+			'imageStyle:alignRight'
 		],
 		styles: [
 			'full',
