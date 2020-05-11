@@ -89,11 +89,7 @@ ClassicEditor.defaultConfig = {
 	},
 	image: {
 		toolbar: [
-			'imageTextAlternative',
-			'|',
-			'imageStyle:alignLeft',
-			'imageStyle:full',
-			'imageStyle:alignRight'
+			'imageTextAlternative'
 		],
 		styles: [
 			'full',
@@ -110,6 +106,12 @@ ClassicEditor.defaultConfig = {
 			'tableCellProperties'
 		],
 		tableProperties: {
+			'tableBorderColor',
+			'tableBorderStyle',
+			'tableBorderWidth',
+			'tableWidth',
+			'tableHeight',
+			'tableBackgroundColor'
 		},
 		tableCellProperties: {
 		}
