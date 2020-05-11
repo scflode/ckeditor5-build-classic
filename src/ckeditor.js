@@ -106,12 +106,7 @@ ClassicEditor.defaultConfig = {
 			'tableCellProperties'
 		],
 		tableProperties: {
-			'tableBorderColor',
-			'tableBorderStyle',
-			'tableBorderWidth',
-			'tableWidth',
-			'tableHeight',
-			'tableBackgroundColor'
+			'tableAlignment': false
 		},
 		tableCellProperties: {
 		}
