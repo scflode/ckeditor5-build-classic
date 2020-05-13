@@ -112,6 +112,9 @@ ClassicEditor.defaultConfig = {
 		tableCellProperties: {
 		}
 	},
+	mediaEmbed: {
+		previewsInData: true
+	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
